@@ -1,20 +1,15 @@
-# 📈 Stock Market Predictor (Equity-Based)
+# Stock Market Management System (Java)
 
-This is a Java-based project that predicts stock prices for equity markets using historical data. It processes data like Open, High, Low, Close, Volume, and Turnover to provide short-term and long-term forecasts.
+## 🚀 Overview
+A console/termial application for portfolio management and trend analysis.
+**Highlight:** Features a custom implementation of **Linear Regression** written in Core Java to predict stock trends without using libraries like Scikit-learn.
 
-The predictor is built using core Java, data structures, and basic mathematical logic. It does not rely on external ML libraries, making it lightweight and fully customizable. The project uses gradient descent techniques to fine-tune internal weights and improve accuracy over time.
+## 🛠 Tech Stack
+- **Language:** Java (Core, OOP, Multithreading)
+- [cite_start]**Database:** PostgreSQL (Connected via JDBC) [cite: 280]
+- [cite_start]**Concepts:** Collections Framework, Exception Handling [cite: 279]
 
-Ideal for learning how stock prediction works without heavy machine learning frameworks.
-
----
-
-### 📌 Key Concepts Used:
-- Java Collections (LinkedList, HashMap)
-- Custom mathematical modeling
-- Gradient Descent (manual logic)
-- File I/O and data parsing
-
----
-
-### 🧠 Output Example:
-
+## 🧮 How the Prediction Works
+This project calculates the slope ($m$) and intercept ($c$) using the Least Squares method:
+- `y = mx + c`
+- The algorithm iterates through historical stock data stored in PostgreSQL to calculate the regression line dynamically.
