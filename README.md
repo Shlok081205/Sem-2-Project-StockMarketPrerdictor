@@ -6,8 +6,8 @@ A console/termial application for portfolio management and trend analysis.
 
 ## 🛠 Tech Stack
 - **Language:** Java (Core, OOP, Multithreading)
-- [cite_start]**Database:** PostgreSQL (Connected via JDBC) [cite: 280]
-- [cite_start]**Concepts:** Collections Framework, Exception Handling [cite: 279]
+- **Database:** PostgreSQL (Connected via JDBC) [cite: 280]
+- **Concepts:** Collections Framework, Exception Handling [cite: 279]
 
 ## 🧮 How the Prediction Works
 This project calculates the slope ($m$) and intercept ($c$) using the Least Squares method:
