@@ -87,8 +87,8 @@ Stock_Market_Predictor/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/CrimsonDevil8038/StockMarketPrerdictor.git
-cd StockMarketPrerdictor
+gh repo clone Shlok081205/Stock_Market_Predictor
+cd Stock_Market_Predictor
 ```
 
 ### 2. Set Up PostgreSQL Database
